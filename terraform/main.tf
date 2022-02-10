@@ -1,7 +1,7 @@
 # Authentication to AWS from Terraform code 
 provider "aws" {
     region = "ap-south-1"
-    profile = "devops"
+    profile = "aj"
 }
 # Create a VPC in AWS part of region i.e. Mumbai 
 resource "aws_vpc" "cloudbinary_vpc" {
